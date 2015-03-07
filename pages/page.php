@@ -1,23 +1,22 @@
-<html>
-<head>
-<link rel="stylesheet" href="style.css">
-</head>
-<body>
+<?php
+/* genera Html para cada article (foto y titulo de proyecto) */
+function article($link, $title, $subt, $image, $ext){
+return <<<HTML
+	<article>
+	<a href="{$link}">
 	<header>
-		<div class="pagewidth">      
-			<a href="http://oscardc.com">
-				<hgroup>
-					<h1>Oscar Dominguez</h1>
-					<h2>Developer</h2>
-				</hgroup>
-			</a>			
-			<nav>
-				<a href="http://oscardc.com" class="active">Proyectos</a>
-				<a href="http://github.com/OscarDoc">GitHub</a>
-				<a href="#contacto" id="contact">Contacto</a>
-			</nav>      
-		</div>
+	<div class="details">	
+	<h1>{$title}</h1>
+	<p>{$subt}</p>
+	</div>
 	</header>
+	<span class="bw-wrap"><img src="img/{$image}-bw.{$ext}" class="bw"></span>
+	<span class="clr-wrap"><img src="img/{$image}.{$ext}" class="clr"></span>
+	</a>
+	</article>
+HTML;
+}
+include '../header.php'; ?>
 	<div id="main">
 		<div class="pagewidth">  
 			<section id="portfolio">

@@ -87,6 +87,7 @@ color:#fff;
 background: #f2f2f2 url('img/bgnoise.png');
 padding: 125px 0 30px;
 }
+#main a{color: #d9593d;}
 /* portfolio */
 #portfolio article {
 background: #d0d0d0;
@@ -167,4 +168,76 @@ transition: all 0.2s ease-in;
 }
 #portfolio article:hover .clr {
 	opacity: 1;				
+}
+
+/* paginas de proyecto */
+#portfolio-elem {
+float: left;
+padding-bottom: 30px;
+position: relative;
+width: 100%;
+}
+#portfolio-elem .graficos {
+float: left;
+width: 637px;
+}
+#portfolio-elem .graficos p {
+margin-bottom: 20px;
+}
+#portfolio-elem .graficos img {
+background: #d0d0d0;
+border: 1px solid #b9b9b9;
+padding: 5px;
+width: 625px;
+}
+#portfolio-elem .resumen {
+float: right;
+width: 363px;
+}
+#portfolio-elem .resumen header {
+margin-bottom: 20px;
+}
+#portfolio-elem .resumen header h1{
+color: #443a3d;
+line-height: 32px;
+}
+#portfolio-elem .resumen header p{
+font-size: 16px;
+font-style: italic;
+line-height: 22px;
+margin: 0;
+}
+#portfolio-elem  #portfolio-descr {
+color: #443a3d;
+font-size: 13px;
+line-height: 20px;
+margin-bottom: 20px;
+}
+#portfolio-elem  #portfolio-descr p {
+font-size: 13px;
+line-height: 20px;
+margin-bottom: 20px;
+}
+#portfolio-elem  #portfolio-descr ul {
+margin-bottom: 20px;
+margin-left: 25px;
+margin-top: -10px;
+padding: 0;
+}
+#portfolio-elem .portfolio-url {
+background: #d9593d;
+border: 0;
+border-radius: 5px;
+color: #fff;
+font: 24px 'league_gothicregular', helvetica, arial, sans-serif;
+letter-spacing: 3px;
+text-transform: uppercase;
+padding: 7px 10px;
+transition: all 0.2s ease-in;
+-webkit-transition: all 0.1s ease-in;
+-moz-transition: all 0.1s ease-in;
+-o-transition: all 0.1s ease-in;
+}
+#portfolio-elem .portfolio-url:hover {
+background: #67585e;
 }
