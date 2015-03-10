@@ -49,19 +49,19 @@ margin-right: auto;
 padding: 0;
 width: 1020px;
 }
-body > header hgroup {
+.htitle {
 float: left;
 line-height: 60px;
 height: 60px;
 position: relative;
 }
-body > header hgroup h1 {
+.htitle h1 {
 color: #c7f9dc;
 float: left;
 line-height: 60px;
 margin-right: 10px;
 }
-body > header hgroup h2 {
+.htitle h2 {
 float: left;
 line-height: 60px;
 color: #d9593d;
@@ -89,7 +89,7 @@ padding: 125px 0 30px;
 }
 #main a{color: #d9593d;}
 /* portfolio */
-#portfolio h2,#trabajos h2{
+#portfolio>h2,#trabajos>h2{
 border-bottom:1px solid #bbb;
 padding-bottom: 10px;
 margin-bottom:20px;
@@ -149,7 +149,7 @@ height: 60px;
 #portfolio article:hover header .details {
 top: 210px;
 }
-#portfolio article header h1 {
+#portfolio .details h2 {
 color: #f0f3cd;
 font-size: 24px;
 line-height: 25px;

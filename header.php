@@ -1,15 +1,16 @@
+<!DOCTYPE HTML>
 <html>
 	<head>
 		<link rel="stylesheet" href="/style.css">
+		<meta charset="utf-8"> 
+		<title>Oscar Dominguez</title>
 	</head>
 	<body>
 		<header>
 			<div class="pagewidth">      
-				<a href="/">
-					<hgroup>
-						<h1>Oscar Dominguez</h1>
-						<h2>Desarrollador</h2>
-					</hgroup>
+				<a href="/" class="htitle">
+					<h1>Oscar Dominguez</h1>
+					<h2>Desarrollador</h2>
 				</a>			
 				<nav>
 					<a href="/" class="active">Proyectos</a>

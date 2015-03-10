@@ -6,12 +6,12 @@ return <<<HTML
 	<a href="/pages/{$link}.php">
 	<header>
 	<div class="details">	
-	<h1>{$title}</h1>
+	<h2>{$title}</h2>
 	<p>{$subt}</p>
 	</div>
 	</header>
-	<span class="bw-wrap"><img src="img/{$link}/{$link}-bw.{$ext}" class="bw"></span>
-	<span class="clr-wrap"><img src="img/{$link}/{$link}.{$ext}" class="clr"></span>
+	<span class="bw-wrap"><img src="img/{$link}/{$link}-bw.{$ext}" class="bw" alt="{$title}"></span>
+	<span class="clr-wrap"><img src="img/{$link}/{$link}.{$ext}" class="clr" alt="{$title}"></span>
 	</a>
 	</article>
 HTML;
@@ -43,6 +43,7 @@ include 'header.php';
 		<li>Detección de movimiento con Raspberry PI para cámaras de locales.</li>
 		<li>Plugin Wordpress para crear landings personalizados para cada producto en venta.</li>
 		<li>Aplicación web de gestión de vehículos de cortesía para taller de automoción.</li>
+		<li>QA varios videojuegos (Navy Moves / FX Interactive, Eldevin / Hunted Cow Studios, Path of Exile / Grinding Gear Games).</li>
 		<li>Implantaciones LOPD (Ley Ogánica de Protección de Datos).</li>		
 		<li>Reparaciones gama blanca y gama marrón.</li>
 		<li>Formador en ofimática.</li>
