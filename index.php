@@ -29,8 +29,8 @@ include 'header.php';
 	echo (article('hecho-al-punto','Hecho al Punto','Web','png'));
 	echo (article('estanco','Estanco de Llagostera','Web','jpg'));
 	echo (article('taxi-san-roque','Taxi San Roque','Web','png'));
+	echo (article('mancala','Mancala','Juego','jpg'));	
 	echo (article('radiotaxi-sotogrande','Radiotaxi Sotogrande','Web','jpg'));
-	echo (article('oware','Oware','Juego','jpg'));
 	?>
 </section>
 <?php include 'footer.php'; ?>
