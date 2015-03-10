@@ -30,7 +30,7 @@ include 'header.php';
 	echo (article('estanco','Estanco de Llagostera','Web','jpg'));
 	echo (article('taxi-san-roque','Taxi San Roque','Web','png'));
 	echo (article('mancala','Mancala','Juego','jpg'));	
-	echo (article('radiotaxi-sotogrande','Radiotaxi Sotogrande','Web','jpg'));
+	echo (article('roxbury','Roxbury: The Club','Web','jpg'));
 	?>
 </section>
 <?php include 'footer.php'; ?>
