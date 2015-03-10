@@ -31,6 +31,7 @@ include 'header.php';
 	echo (article('taxi-san-roque','Taxi San Roque','Web','png'));
 	echo (article('mancala','Mancala','Juego','jpg'));	
 	echo (article('roxbury','Roxbury: The Club','Web','jpg'));
+	echo (article('sinistra-defense','Sinistra Defense','Juego HTML5','png'));
 	?>
 </section>
 <?php include 'footer.php'; ?>
