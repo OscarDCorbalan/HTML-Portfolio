@@ -89,6 +89,14 @@ padding: 125px 0 30px;
 }
 #main a{color: #d9593d;}
 /* portfolio */
+#portfolio h2,#trabajos h2{
+border-bottom:1px solid #bbb;
+padding-bottom: 10px;
+margin-bottom:20px;
+}
+#portfolio-title{
+margin-bottom:40px;
+}
 #portfolio article {
 background: #d0d0d0;
 border: 1px solid #b9b9b9;
@@ -167,7 +175,11 @@ transition: all 0.2s ease-in;
 -o-transition: all 0.2s ease-in;
 }
 #portfolio article:hover .clr {
-	opacity: 1;				
+opacity: 1;				
+}
+#trabajos ul{
+font: 13px/20px helvetica, arial, sans-serif;
+color: #443a3d;
 }
 
 /* paginas de proyecto */
@@ -218,7 +230,7 @@ font-size: 13px;
 line-height: 20px;
 margin-bottom: 20px;
 }
-#portfolio-elem  #portfolio-descr ul {
+#portfolio-elem  #portfolio-descr ul{
 margin-bottom: 20px;
 margin-left: 25px;
 margin-top: -10px;
@@ -240,4 +252,29 @@ transition: all 0.2s ease-in;
 }
 #portfolio-elem .portfolio-url:hover {
 background: #67585e;
+}
+
+/* footer */
+footer{
+background: #272123 url('img/footer-bg.png');
+border-top: 5px solid #d0d0d0;
+box-shadow: 0 -1px 0 #bababa;
+padding: 30px 0 0;
+overflow: auto;
+}
+footer section {
+width: 330px;
+float: left;
+margin-right: 60px;
+padding-bottom: 30px;
+}
+footer h1{
+margin-bottom: 20px;
+color: #d9593d;
+}
+footer p{
+color: #fffee9;
+font-size: 14px;
+line-height: 20px;
+margin-bottom: 15px;
 }
