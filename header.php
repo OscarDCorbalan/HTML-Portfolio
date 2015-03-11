@@ -13,8 +13,9 @@
 					<h2>Desarrollador</h2>
 				</a>			
 				<nav>
-					<a href="/" class="active">Proyectos</a>
+					<a href="/" class="<?php if($currentPage == 'index'): ?>active<?php endif; ?>">Proyectos</a>
 					<a href="http://github.com/OscarDoc" target="_blank">GitHub</a>
+					<a href="/hobbies" class="<?php if($currentPage == 'hobby'): ?>active<?php endif; ?>">Hobbies</a>
 					<a href="#contacto" id="contact">Contacto</a>
 				</nav>      
 			</div>

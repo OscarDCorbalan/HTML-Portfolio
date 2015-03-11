@@ -16,6 +16,7 @@ return <<<HTML
 	</article>
 HTML;
 }
+$currentPage = 'index';
 include 'header.php';
 ?>
 <section id="portfolio">
