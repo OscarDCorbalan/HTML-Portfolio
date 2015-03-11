@@ -18,11 +18,7 @@
 			<p>
 				La rentabilización del portal mezcla los ingresos por publicidad estándar con los de ventas de afiliado. Estas ventas son tanto de compras in-game en los juegos disponibles en el portal, como de compras de los juegos de los que se habla en el portal a través de enlaces de afiliado. Esto se consigue mediante scrappers que cachean diariamente los catálogos de varios comerciantes online, ofreciendo las ofertas de un título directamente desde los mismos artículos que hablan de éste.
 			</p>
-			<p>Enlaces:
-				<ul>
-					<li><a href="http://www.bitmaiden.com" target="blank">BitMaiden.com</a></li>
-				</ul>
-			</p>
+			<p><a class="portfolio-url" href="http://www.bitmaiden.com" target="blank">BitMaiden.com</a></p>
 		</section>
 	</div>		
 </section>
