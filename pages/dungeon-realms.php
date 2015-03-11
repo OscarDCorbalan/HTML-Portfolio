@@ -25,6 +25,7 @@
 			<p>Enlaces:
 			<ul>
 				<li><a href="http://boardgamegeek.com/boardgame/134282/dungeon-realms">Dungeon Realms en Board Game Geeks</a></li>				
+				<li><a href="http://upcommons.upc.edu/pfc/handle/2099.1/18663">Memoria del proyecto</a></li>				
 			</ul>
 			</p>
 			<p><a class="portfolio-url" href="https://github.com/OscarDoc/AS3-Engine-CardGame" target="blank">GitHub</a></p>
