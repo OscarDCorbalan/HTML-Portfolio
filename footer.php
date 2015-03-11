@@ -11,6 +11,7 @@
 				<form id="form1" name="form1" class="wufoo topLabel page" accept-charset="UTF-8" autocomplete="off" enctype="multipart/form-data" method="post" novalidate
 				action="https://oscardc.wufoo.com.mx/forms/ztt9y4c179vhcz/#public">	
 					<h2>Contacto</h2>
+					<p class="peque">Puedes enviarme un correo a oscardc@gmx.com,<br>o bien rellenar el siguiente formulario.</p>
 					<ul>
 						<li id="foli1" class="notranslate">
 							<label class="desc" id="title1" for="Field1">Correo electrónico</label>
@@ -30,7 +31,7 @@
 						</li>
 					</ul>
 				</form>
-				<p class="peque">También puedes enviarme un correo a oscardc@gmx.com.</p>
+				
 			</section>
 			</div>
 		</footer>	
