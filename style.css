@@ -14,8 +14,7 @@ margin:0;
 padding:0;
 }
 h1,h2,h3{
-font: 28px/28px 'league_gothicregular', helvetica, arial, sans-serif;
-font-size: 28px;
+font: 30px/30px 'league_gothicregular', helvetica, arial, sans-serif;
 letter-spacing: 1px;
 margin: 0;
 padding: 0;
@@ -89,7 +88,7 @@ padding: 125px 0 30px;
 }
 #main a{color: #d9593d;}
 /* portfolio */
-#portfolio>h2,#trabajos>h2,#musica>h2{
+#portfolio>h2,#trabajos>h2,#musica>h2, #astro>h2{
 border-bottom:1px solid #bbb;
 padding-bottom: 10px;
 margin-bottom:20px;
@@ -180,6 +179,21 @@ transition: all 0.2s ease-in;
 #portfolio article:hover .clr {
 opacity: 1;				
 }
+/* si es un móvil/tablet... */ 
+@media handheld{
+	/* mostrar los proyectos igual que si hacemos hover en el PC (en color, con nombre) */
+	#portfolio article .clr {opacity: 1}
+	#portfolio article header .details {top: 210px;}
+	#portfolio article {
+		background: #272123;
+		border: 1px solid #272123;
+	}
+	/* y agrandar los titulos */
+	h1,h2,h3{
+		font-size:40px;
+		line-height: 40px;
+	}
+}
 #trabajos ul{
 font: 13px/20px helvetica, arial, sans-serif;
 color: #443a3d;
@@ -256,15 +270,23 @@ transition: all 0.2s ease-in;
 #portfolio-elem .portfolio-url:hover {
 background: #67585e;
 }
-/* musiquita güena */
-#musica p{
+/* hobbies */
+#hobbies p{
 margin-bottom: 14px;
 }
 #musica audio{
 margin-bottom: 20px;
 width:480px;
 }
-
+#musica{
+margin-bottom: 20px;
+}
+#hobbies img{
+width:490px;
+height:393px;
+display:inline-block;
+margin-right:10px;
+}
 /* footer */
 footer{
 background: #272123 url('img/footer-bg.png');
