@@ -14,7 +14,7 @@
 			</p>
 			<p>Enlaces:
 				<ul>
-					<li><a href="https://github.com/OscarDoc/Html5-HechoAlPunto" target="blank">Código en GitHub</a></li>
+					<li><a href="https://github.com/OscarDCorbalan/Html5-HechoAlPunto" target="blank">Código en GitHub</a></li>
 				</ul>
 			</p>
 			<a class="portfolio-url" href="http://www.hechoal.com" target="blank">hechoal.com</a>
