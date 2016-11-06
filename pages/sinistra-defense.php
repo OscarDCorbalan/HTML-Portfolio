@@ -15,7 +15,7 @@
 			</p>
 			<p>Enlaces:
 				<ul>
-					<li><a href="https://github.com/OscarDoc/HTML5-Sinistra" target="blank">Código en GitHub</a></li>
+					<li><a href="https://github.com/OscarDCorbalan/HTML5-Sinistra" target="blank">Código en GitHub</a></li>
 				</ul>
 			</p>
 		</section>
